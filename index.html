@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="icon" type="image/png" sizes="32x32" href="img/favicons/favicon-32x32.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="img/favicons/favicon-16x16.png">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@200..800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/animate.min.css">
+  <link rel="stylesheet" href="css/normalize.css">
+  <link rel="stylesheet" href="css/style.css">
+  <title>База данных перенесенных номеров (БДПН)</title>
+</head>
+<body>
+  <svg xmlns="http://www.w3.org/2000/svg" style="display: none;">
+    <symbol id="icon" viewBox="0 0 24 24" stroke="currentColor" xmlns="http://www.w3.org/2000/svg" fill="none" stroke-linecap="round" stroke-linejoin="round" stroke-width="2">
+      <path d="M14.5 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V7.5L14.5 2z"/>
+      <path d="M14 2v6h6M12 18v-6M9 15l3 3 3-3"/>
+    </symbol>
+    <symbol id="wallet" fill="none" stroke-linecap="round" stroke-linejoin="round" stroke-width="1" viewBox="0 0 24 24">
+      <path d="M20 12V8H6a2 2 0 0 1-2-2c0-1.1.9-2 2-2h12v4"/><path d="M4 6v12c0 1.1.9 2 2 2h14v-4"/>
+      <path d="M18 12a2 2 0 0 0-2 2c0 1.1.9 2 2 2h4v-4h-4z"/>
+    </symbol>
+    <symbol id="key" fill="none" stroke-linecap="round" stroke-linejoin="round" stroke-width="1" viewBox="0 0 24 24">
+      <path d="m21 2-2 2m-7.61 7.61a5.5 5.5 0 1 1-7.778 7.778 5.5 5.5 0 0 1 7.777-7.777zm0 0L15.5 7.5m0 0 3 3L22 7l-3-3m-3.5 3.5L19 4"/>
+    </symbol>
+    <symbol id="log-in" fill="none" stroke-linecap="round" stroke-linejoin="round" stroke-width="1" viewBox="0 0 24 24">
+      <path d="M15 3h4a2 2 0 0 1 2 2v14a2 2 0 0 1-2 2h-4M10 17l5-5-5-5M15 12H3"/>
+    </symbol>
+  </svg>
+  <section class="section-top">
+    <div class="container">
+      <div class="section-top__wrap">
+        <div class="section-top__content wow animate__animated animate__fadeIn">
+          <h1 class="section-top__title">
+            База данных перенесенных номеров (БДПН)
+          </h1>
+          <p class="section-top__text">
+            Сервис предоставляет доступ к актуальной базе данных перенесенных номеров (БДПН). База обновляется ежедневно  и содержит актуальную информацию.
+          </p>
+          <div class="section-top__btns wow animate__animated animate__fadeInUp">
+            <a href="files/base.zip" class="section-top__btn btn" download="БДПН">
+              <svg class="section-top__btn-icon">
+                <use xlink:href="#icon"></use>
+              </svg>
+              <span class="section-top__btn-text">Скачать ZIP</span>
+            </a>
+            <a href="files/base.csv" class="section-top__btn btn-ghost" download="БДПН">
+              <svg class="section-top__btn-icon section-top__btn-icon_white">
+                <use xlink:href="#icon"></use>
+              </svg>
+              <span class="section-top__btn-text">Скачать CSV</span>
+            </a>
+          </div>
+        </div>
+        <div class="section-top__img-wrap wow animate__animated animate__fadeIn">
+          <img src="img/top.webp" alt="" class="section-top__img">
+        </div>
+      </div>
+    </div>
+  </section>
+  <section class="section-desc section">
+    <div class="container">
+      <div class="section-desc__wrap">
+        <p class="section-desc__text wow animate__animated animate__fadeInUp">
+          База данных перенесенных номеров (БДПН) – это система, которая обеспечивает техническую возможность переноса абонентских номеров между операторами сотовой связи, сохраняя абоненту его номер телефона.
+        </p>
+        <div class="section-desc__img-wrap wow animate__animated animate__fadeInUp">
+          <img src="img/desc.webp" alt="" class="section-desc__img">
+        </div>
+      </div>
+    </div>
+  </section>
+  <section class="section-if">
+    <div class="container">
+      <h2 class="section-if__title wow animate__animated animate__fadeIn">
+        Условия предоставления сервиса:
+      </h2>
+      <ul class="section-if__list">
+        <li class="section-if__item">
+          <div class="section-if__card if-card wow animate__animated animate__fadeIn" data-wow-delay="0.1s">
+            <div class="if-card__img-wrap">
+              <svg class="if-card__img">
+                <use xlink:href="#wallet"></use>
+              </svg>
+            </div>
+            <h3 class="if-card__title">
+              Стоимость
+            </h3>
+            <p class="if-card__text">
+              Бесплатно
+            </p>
+          </div>
+        </li>
+        <li class="section-if__item">
+          <div class="section-if__card if-card wow animate__animated animate__fadeIn" data-wow-delay="0.2s">
+            <div class="if-card__img-wrap">
+              <svg class="if-card__img">
+                <use xlink:href="#key"></use>
+              </svg>
+            </div>
+            <h3 class="if-card__title">
+              API-ключ
+            </h3>
+            <p class="if-card__text">
+              Не требуется
+            </p>
+          </div>
+        </li>
+        <li class="section-if__item">
+          <div class="section-if__card if-card wow animate__animated animate__fadeIn" data-wow-delay="0.3s">
+            <div class="if-card__img-wrap">
+              <svg class="if-card__img">
+                <use xlink:href="#log-in"></use>
+              </svg>
+            </div>
+            <h3 class="if-card__title">
+              Регистрация
+            </h3>
+            <p class="if-card__text">
+              Не требуется
+            </p>
+          </div>
+        </li>
+      </ul>
+    </div>
+  </section>
+  <script src="js/wow.min.js"></script>
+  <script>
+     new WOW().init();
+  </script>
+</body>
+</html>
